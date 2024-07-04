@@ -1,0 +1,27 @@
+.weather-item {
+  background: #616a71;
+  border-radius: 6px;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: all 0.3s ease;
+  &:hover {
+    background: #33373a;
+    transform: translateY(-6px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
+  }
+  p {
+    margin: 0;
+  }
+  img {
+    height: 4rem;
+    width: fit-content;
+  }
+
+  .date {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+}
