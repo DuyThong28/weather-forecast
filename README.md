@@ -51,7 +51,9 @@ DB_NAME =forecast<br/>
 DB_USERNAME =root<br/>
 DB_PASSWORD =<br/>
 API_KEY =cdb01ad87ab6475492d105348240307<br/>
-CLIENT_PORT=http://localhost:3000/
+CLIENT_PORT=http://localhost:3000/<br/>
+NODE_ENV=development
+
 </p>
 <b>Step 5: </b>Create new database with name: forecast in in xampp or msqlWorkench <br/>
 <b>Step 6: </b>Open new terminal and run these command: <br/>
