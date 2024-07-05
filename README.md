@@ -27,7 +27,7 @@
 <b>Deploy: <b>
 <ul>
   <li><b>Client:</b> <a href="https://vercel.com/">vercel.com</a></li>
-  <li><b>Server:</b> <a href="https://render.com/">render</a></li>
+  <li><b>Server:</b> <a href="https://render.com/">render.com</a></li>
     <li><b>DB:</b> <a href="https://freedb.tech/">freedb.tech</a></li>
 </ul>
 
