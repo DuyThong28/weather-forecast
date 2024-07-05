@@ -1,7 +1,7 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./App.scss";
 import WeatherItem from "./components/WeatherItem";
-import { useMutation } from "@tanstack/react-query";
+import { useMutation, useQuery } from "@tanstack/react-query";
 import { getCityData, getForecastData } from "./api/forecastApi";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
@@ -32,6 +32,23 @@ function App() {
   const [emailState, setEmailState] = useState(null);
   const formRef = useRef();
   const inputRef = useRef();
+
+  const { data: temporaryData } = useQuery({
+    queryKey: ["forecast"],
+    queryFn: async () => {
+      const data = await getForecastData({
+        city: localStorage.getItem("city"),
+        days: 4,
+      });
+      console.log("Save temporary weather information history");
+      inputRef.current.value = null;
+      setCitiesState(null);
+      setCityState(() => "");
+      setForecastState(data.data);
+      return data.data;
+    },
+    enabled: localStorage.getItem("city") !== null,
+  });
 
   const { mutate: forecastMutate } = useMutation({
     mutationFn: getForecastData,
@@ -416,7 +433,9 @@ function App() {
               )}
             </div>
           ) : (
-            <div className="w-100 fs-3 text-center p-2 fw-medium text-dark">No data</div>
+            <div className="w-100 fs-3 text-center p-2 fw-medium text-dark">
+              No data
+            </div>
           )}
         </div>
       </div>
