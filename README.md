@@ -2,7 +2,7 @@
 ![image](https://github.com/DuyThong28/weather-forecast/assets/116278919/ef94cbb6-b247-4224-96e1-900249552693)
 <ul>
   <li><b>Demo: </b><a href="https://www.youtube.com/watch?v=lypsnomIpp4">Weather forecast demo</a></li>
-    <li><b>Deploy: </b><a href="https://weather-forecast-lovat-eta.vercel.app/">Weather Forecast</a> (<b> Warning:</b> Because of using free hosting, it will take a few seconds to load data for the first access to website)</li>
+    <li><b>Deploy: </b><a href="https://weather-forecast-lovat-eta.vercel.app/">Weather Forecast</a> <br><b> Warning:</b> Because of using free hosting, it will take a few seconds to load data for the first access to website.</li>
 </ul>
 
 # Features
@@ -18,7 +18,7 @@
   <li>Use current location for displaying weather information.</li>
   <li>Save temporary city infomation to display weather information when visiting website again.</li>
   <li>Register and unsubscribe to receive daily weather forecast information of a city at midnight via email address. (Email confirmation with OTP).</li>
-  <li>Responsive design with smooth animations for desktops & mobile phones</li>
+  <li>Responsive design with smooth animations for desktops & mobile phones.</li>
 </ul>
 
 # Technologies
