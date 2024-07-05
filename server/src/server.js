@@ -5,13 +5,14 @@ const forcastRoutes = require("./routes/forecastRouter");
 const userRoutes = require("./routes/userRouter");
 const { connection } = require("./config/connectDB");
 const job = require("../src/utils/sendDailyEmail");
+require("dotenv").config();
 //connect to database
 connection();
 
 //cors
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: process.env.CLIENT_PORT,
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
   })

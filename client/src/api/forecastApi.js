@@ -2,11 +2,11 @@ export async function getForecastData({ city, latitude, longitude, days }) {
   let response;
   if (city) {
     response = await fetch(
-      `http://localhost:8080/api/v1/forecast?q="${city}"&days=${days}`
+      `https://weather-forecast-server-lhvp.onrender.com/api/v1/forecast?q="${city}"&days=${days}`
     );
   } else if (latitude && longitude) {
     response = await fetch(
-      `http://localhost:8080/api/v1/forecast?q=${latitude},${longitude}&days=${days}`
+      `https://weather-forecast-server-lhvp.onrender.com/api/v1/forecast?q=${latitude},${longitude}&days=${days}`
     );
   }
 
@@ -21,7 +21,7 @@ export async function getForecastData({ city, latitude, longitude, days }) {
 
 export async function getCityData({ name }) {
   const response = await fetch(
-    `http://localhost:8080/api/v1/forecast/search?q="${name}"`
+    `https://weather-forecast-server-lhvp.onrender.com/api/v1/forecast/search?q="${name}"`
   );
 
   if (!response.ok) {

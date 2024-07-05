@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "forecast",
-    "host": "127.0.0.1",
+    "username": "freedb_newroot",
+    "password": "U8X9!FPF32fFM7!",
+    "database": "freedb_wforecast",
+    "host": "sql.freedb.tech",
     "dialect": "mysql"
   },
   "test": {

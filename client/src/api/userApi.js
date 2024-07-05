@@ -1,5 +1,5 @@
 export async function createUser({ email }) {
-  const response = await fetch(`http://localhost:8080/api/v1/user/`, {
+  const response = await fetch(`https://weather-forecast-server-lhvp.onrender.com/api/v1/user/`, {
     method: "POST",
     body: JSON.stringify({ email }),
     headers: {
@@ -16,7 +16,7 @@ export async function createUser({ email }) {
 }
 
 export async function sendOTP({ email }) {
-  const response = await fetch(`http://localhost:8080/api/v1/user/send-otp`, {
+  const response = await fetch(`https://weather-forecast-server-lhvp.onrender.com/api/v1/user/send-otp`, {
     method: "POST",
     body: JSON.stringify({ email }),
     headers: {
@@ -33,7 +33,7 @@ export async function sendOTP({ email }) {
 }
 
 export async function checkOTP({ email, code }) {
-  const response = await fetch(`http://localhost:8080/api/v1/user/check-otp`, {
+  const response = await fetch(`https://weather-forecast-server-lhvp.onrender.com/api/v1/user/check-otp`, {
     method: "POST",
     body: JSON.stringify({ email, code }),
     headers: {
@@ -50,7 +50,7 @@ export async function checkOTP({ email, code }) {
 }
 
 export async function updateCity({ email, city }) {
-  const response = await fetch(`http://localhost:8080/api/v1/user`, {
+  const response = await fetch(`https://weather-forecast-server-lhvp.onrender.com/api/v1/user`, {
     method: "PUT",
     body: JSON.stringify({ email, city }),
     headers: {
@@ -68,7 +68,7 @@ export async function updateCity({ email, city }) {
 
 export async function findUserByEmail({ email }) {
   const response = await fetch(
-    `http://localhost:8080/api/v1/user?email=${email}`,
+    `https://weather-forecast-server-lhvp.onrender.com/api/v1/user?email=${email}`,
     {
       method: "GET",
       headers: {
@@ -86,7 +86,7 @@ export async function findUserByEmail({ email }) {
 }
 
 export async function deleteUser({ email }) {
-  const response = await fetch(`http://localhost:8080/api/v1/user`, {
+  const response = await fetch(`https://weather-forecast-server-lhvp.onrender.com/api/v1/user`, {
     method: "DELETE",
     body: JSON.stringify({ email }),
     headers: {
