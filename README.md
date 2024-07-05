@@ -24,6 +24,7 @@ API_KEY =cdb01ad87ab6475492d105348240307
 <ul>
   <li>cd server</li>
   <li>npm install</li>
+  <li>npx sequelize-cli db:migrate</li>
     <li>npm run start</li>
 </ul>
 <b>Step 7:</b>Open link <a href="http://localhost:3000/">http://localhost:3000/</a> on your browse<br/>
