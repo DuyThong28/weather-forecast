@@ -23,7 +23,7 @@
 
 # Technologies
 <b>Frontend:</b> ReactJS, Boostrap, scss, HTML,Javascript, TanStack Query<br/>
-<b>Backend: </b> NodeJS, ExpressJS, sequelize, mySQL
+<b>Backend: </b> NodeJS, ExpressJS, sequelize, mySQL<br/>
 <b>Deploy: <b>
 <ul>
   <li><b>Client:</b> <a href="https://vercel.com/">vercel.com</a></li>
