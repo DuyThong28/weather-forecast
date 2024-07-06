@@ -55,7 +55,7 @@ CLIENT_PORT=http://localhost:3000/<br/>
 NODE_ENV=development
 
 </p>
-<b>Step 5: </b>Create new database with name: forecast in in xampp or msqlWorkench <br/>
+<b>Step 5: </b>Create new database in xampp or msqlWorkbench with name: forecast <br/>
 <b>Step 6: </b>Open new terminal and run these command: <br/>
 <ul>
   <li>cd server</li>
