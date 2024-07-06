@@ -1,5 +1,5 @@
 # WEATHER FORECAST
-![image](https://github.com/DuyThong28/weather-forecast/assets/116278919/ef94cbb6-b247-4224-96e1-900249552693)
+![image](https://github.com/DuyThong28/weather-forecast/assets/116278919/c5b6907a-fd2b-443e-b8fb-e2a9c6af837d)
 <ul>
   <li><b>Demo: </b><a href="https://www.youtube.com/watch?v=lypsnomIpp4">Weather forecast demo</a></li>
     <li><b>Deploy: </b><a href="https://weather-forecast-lovat-eta.vercel.app/">Weather Forecast</a> <br><b> Warning:</b> Because of using free hosting, it will take a few seconds to load data for the first access to website.</li>
