@@ -17,7 +17,7 @@
 </li>
   <li>Use current location for displaying weather information.</li>
   <li>Save temporary city infomation to display weather information when visiting website again.</li>
-  <li>Register and unsubscribe to receive daily weather forecast information of a city at midnight via email address. (Email confirmation with OTP).</li>
+  <li>Register and unsubscribe to receive daily weather forecast information of a city at 7 o'clock via email address. (Email confirmation with OTP).</li>
   <li>Responsive design with smooth animations for desktops & mobile phones.</li>
 </ul>
 
