@@ -30,37 +30,3 @@
   <li><b>Server:</b> <a href="https://render.com/">render.com</a></li>
     <li><b>DB:</b> <a href="https://freedb.tech/">freedb.tech</a></li>
 </ul>
-
-
-
-
-# Installation
-<b>Step 1: </b>Clone this repos on main branch for running on localhost purpose <br/>
-<b>Step 2: </b>Open source code with vscode<br/>
-<b>Step 3: </b>Run these command:
-<ul>
-  <li>cd client</li>
-  <li>npm install</li>
-    <li>npm run dev</li>
-</ul>
-<b>Step 4: </b>Create .env file in folder server with this content:  <br/>
-<p>PORT = 8080<br/>
-GOOGLE_APP_EMAIL="thongduy2811@gmail.com"<br/>
-GOOGLE_APP_PASSWORD="oxnx mdrg avdk pwda"<br/>
-DB_NAME =forecast<br/>
-DB_USERNAME =root<br/>
-DB_PASSWORD =<br/>
-API_KEY =cdb01ad87ab6475492d105348240307<br/>
-CLIENT_PORT=http://localhost:3000/<br/>
-NODE_ENV=development
-
-</p>
-<b>Step 5: </b>Create new database in xampp or msqlWorkbench with name: forecast <br/>
-<b>Step 6: </b>Open new terminal and run these command: <br/>
-<ul>
-  <li>cd server</li>
-  <li>npm install</li>
-  <li>npx sequelize-cli db:migrate</li>
-    <li>npm run start</li>
-</ul>
-<b>Step 7: </b>Open <a href="http://localhost:3000/">http://localhost:3000/</a> on your browse<br/>
