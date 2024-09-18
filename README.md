@@ -1,8 +1,5 @@
 # WEATHER FORECAST
 ![image](https://github.com/DuyThong28/weather-forecast/assets/116278919/c5b6907a-fd2b-443e-b8fb-e2a9c6af837d)
-<ul>
-  <li><b>Demo: </b><a href="https://www.youtube.com/watch?v=lypsnomIpp4">Weather forecast demo</a></li>
-</ul>
 
 # Features
 <ul>
